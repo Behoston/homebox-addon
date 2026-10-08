@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
 name: Homebox add-on repository
-url: 'https://github.com/beausmith/homebox-addon'
-maintainer: Beau Smith <beau@beausmith.com>
+url: 'https://github.com/behoston/homebox-addon'
+maintainer: Behoston <mlegiecki@gmail.com>
