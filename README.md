@@ -8,7 +8,7 @@ Home Assistant add-on for running [Homebox](https://github.com/sysadminsmedia/ho
 
 This repository contains the following add-ons
 
-### [Homebox add-on](./example)
+### [Homebox add-on](homebox)
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
