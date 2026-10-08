@@ -1,8 +1,11 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
-ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM ghcr.io/sysadminsmedia/homebox:0.26.2
 
-LABEL org.opencontainers.image.source="https://github.com/behoston/homebox-addon"
+LABEL \
+    org.opencontainers.image.title="Home Assistant Add-on: Homebox" \
+    org.opencontainers.image.description="Run Homebox inside Home Assistant" \
+    org.opencontainers.image.source="https://github.com/behoston/homebox-addon" \
+    org.opencontainers.image.licenses="Apache-2.0"
 
 # The base sysadminsmedia/homebox image has no s6-overlay or bashio, so the
 # rootfs service script never runs. Point Homebox's temp dir at /data, which is
